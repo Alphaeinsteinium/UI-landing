@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Lato:wght@300&family=Updock&display=swap');
+*{
+margin: 0;
+padding: 0;
+}
+.header{
+background-color: white;
+border-bottom: 2px solid #f9f9f9;
+font-family: 'Akshar', sans-serif;
+padding: 20px;
+font-size: 20px;
+}
+span.fifty, .thousand {
+float: right;
+font-size: 13px;
+padding-top: 5px;
+}
+span.logoname{
+margin-left: 82px;
+font-weight: bold;
+font-style: italic;
+}
+img.bars{
+float: left;
+width: 7%;
+height: 7%;
+color: #f9f9f9;
+}
+img.folder{
+float: right;
+width: 7%;
+height: 7%;
+}
+.main{
+position: absolute;
+padding: 27px 12px 12px 12px;
+width: 93%;
+}
+.hero{
+/**background-color:rgb(0, 0, 5);**/
+background-image: url("renamed.jpg");
+background-repeat: no-repeat; 
+background-position: center;
+background-size: cover;
+border-radius: 10px;
+height: 42vh;
+}
+/**.content {
+display: flex;
+}
+**/
+.paragraph1{
+padding: 5px;
+}
+span.dregon{
+padding-top: 20px;
+margin-left: 3px;
+font-size: 11px;
+letter-spacing: 0.1em;
+font-family: verdana;
+color: white;
+text-align: center;
+}
+img.logo{
+float: left;
+width: 5%;
+height: 4%;
+padding-bottom: 4px;
+}
+span.links{
+float: right;
+font-size: 9px;
+padding-top: 5px;
+margin-left: 30px;
+font-family: verdana;
+display: felx;
+}
+a.display{
+display: inline;
+color: white;
+text-decoration: none;
+font-size: 9px;
+padding: 2px;
+}
+.section {
+padding: 8px 20px 0px 20px;
+margin: 15px;
+}
+p.sections{
+font-family: helvetica;
+font-size: 13px;
+letter-spacing: 0.1em;
+color: white;
+}
+.body{
+padding: 5px;
+justify-content: center;
+margin-left: 20px;
+}
+img.visible, .like{
+width: 7%;
+height: 7%;
+float: right;
+padding-bottom: 1px;
+}
+/**img.logo2{
+width: 14%;
+height: 14%;
+}
+**/
+img.logos{
+width: 15%;
+height: 13%;
+}
+.loga{
+font-family: verdana;
+font-size: 18px;
+color: white;
+font-weight: bold;
+}
+.button1{
+background-color: white;
+padding: 6px 12px;
+color: black;
+border-radius: 15px;
+border:none;
+font-size: 13px;
+}
+.button3{
+background: linear-gradient(dodgerblue,green,blue,purple);
+color: white;
+padding: 6px 12px;
+border-radius: 15px;
+border: none;
+font-size: 13px;
+}
+.buttons{
+padding-top: 17px;
+margin-left: 28px;
+}
+.footer{
+padding: 6px 5px 2px 5px;
+}
+p.trademark{
+color: white;
+font-family: verdana;
+font-size: 12px;
+}
+span.box,.rectangle,.square,.circle{
+border-radius: 55px;
+}
+span.box{
+background-color: green;
+height: 555vh;
+width: 15%;
+}
+span.rectangle{
+background-color: green;
+height:4vh;
+width: 15%;
+}
+span.square{
+background-color: green;
+height:4vh;
+width: 15%;
+}
+img.conclude{
+width: 7%;
+height: 6%;
+float: right;
+padding-bottom: 3px;
+}
+span.logotrade{
+font-family: verdana;
+font-size: 12px;
+color: white;
+float: right;
+padding-top: 6px;
+}
+img.person{
+width: 22px;
+height: 22px;
+border-radius: 10px;
+float: left;
+}
+p.acknowledge{
+font-family: verdana;
+padding-top: 8px 3px 3px 0px;
+ display: block;
+}
+span.name{
+margin-left: 8px;
+padding-top: 0px;
+font-size: 14px;
+font-weight: bold;
+}
+span.beta{
+background-color: gray;
+padding: 2px 3px;
+border-radius: 4px;
+margin: 3px 2px 2px 2px;
+color: white;
+font-weight: bold;
+font-size: 12px;
+}
+.nikesec{
+background-color: #f1f1f1;
+border-radius: 10px;
+width: 97%;
+height: 42vh;
+padding: 3px;
+}
+span.oneway{
+margin-left: 7px;
+}
+p.NFC{
+font-size: 10px;
+font-family: verdana;
+padding: 3px;
+}
+img.nike{
+margin-left: 55px;
+width: 7%;
+height: 7%;
+}
+img.optbar{
+float: right;
+width: 6%;
+height: 6%;
+}
+.mainss{
+padding-top: 68px;
+}
+.whitebg{
+background-color: white;
+width: 100%;
+height: 33vh;
+padding: 5px;
+}
+.bg{
+padding: 27px 35px 55px 25px;
+}
+span.NFB{
+padding-top: 3px;
+float: left;
+margin-right: 15px;
+}
+p.official{
+font-family: verdana;
+font-size: 17px;
+}
+p.third{
+font-size: 8px;
+font-family: verdana;
+padding-bottom: 3px;
+}
+img.football{
+width: 37%;
+height: 37%;
+float: right;
+margin-left: 20px;
+box-shadow: 0px 6px 5px #ccc;
+border-radius: 55px;
+border: none;
+}
+.Premierleague {
+padding: 17px;
+}
+button.click{
+padding: 6px 10px;
+background-color: #ffff7043;
+color: orange;
+border: none;
+width: 35px;
+font-size: 14px;
+display: inline-block;
+}
+button.direction{
+background-color: transparent;
+border: 1px solid black;
+padding: 3px 6px;
+color: black;
+float: right;
+}
+img.order{
+display: block;
+margin-left: auto;
+margin-right: auto;
+object-fit: cover;
+border-radius: 99px;
+width: 160px;
+height: 160px;
+}
+.mealmonkey{
+padding-top: 19px;
+}
+.meta{
+background-color: #f1f1f1;
+border-radius: 15px;
+}
+.meal{
+padding: 20px;
+margin-left: 5px;
+}
+.last{
+background-color: white;
+border-radius: 10px;
+padding: 0px;
+width: 95%;
+margin-left: 2px;
+}
+p.monk{
+text-align: center;
+color: white;
+width: 75%;
+margin-left: 20px;
+padding: 7px 10px 10px 10px;
+background-color: rgb(0,0,26);
+border-radius: 0px 0px 10px 10px;
+font-size: 14px;
+}
+.fastmethod {
+color: black;
+padding-top: 16px; 
+margin-left: 16px;
+font-weight: bold;
+font-size:17px;
+}
+.delivery {
+color: darkorange;
+}
+.boxess{
+background-color: #f1f1f1;
+width: 160px;
+height: 160px;
+padding: 13px;
+border-radius: 99px;
+}
+.floated{
+padding: 15px;
+margin-left: 6px;
+}
+.searchicon{
+color: white;
+font-family: verdana;
+}
+img.find{
+width: 8%;
+height: 8%;
+padding-top: 5px;
+}
+a.search{
+text-decoration: none;
+color: white;
+background-color: darkorange;
+padding: 10px 14px;
+border-radius: 15px;
+font-size: 14px;
+}
+span.Searchs{
+margin-left: 3px;
+}
+
+img.persons, .personss{
+width: 23px;
+height: 23px;
+border-radius: 12px;
+float: left;
+}
+.personss{
+float: right;
+}
+p.acknowledgement{
+font-family: verdana;
+padding-top: 19px;
+margin-left: 16px;
+ display: block;
+}
+span.names{
+margin-left: 8px;
+padding-top: 0px;
+font-size: 13px;
+font-weight: bold;
+}
+
+
+/**Third**/
+.feeterss{
+padding:0px 20px 20px 20px;
+margin-left: 5px;
+}
+.lasts{
+background-color: rgb(254,251,234);
+border-radius: 10px;
+width: 95%;
+padding: 0px;
+}
+img.findingss{
+width: 8%;
+height: 8%;
+}
+.purewhite{
+background-color: white;
+padding: 5px 10px;
+border-radius: 10px;
+}
+.footers{
+padding: 10px;
+}
+img.personsss{
+width: 25px;
+height: 25px;
+border-radius: 14px;
+float: right;
+}
+img.sericons{
+float: left;
+width: 32%;
+height: 32%;
+background-color: white;
+border-radius: 5px;
+padding: 3px 6px;
+}
+b{
+margin-left: 13px;
+}
+.serviceproviders{
+font-size: 10px;
+margin-left: 13px;
+}
+.providers{
+margin-left:15px;
+}
+.services{
+padding: 15px;
+}
+.service1, .service2, .service3{
+margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

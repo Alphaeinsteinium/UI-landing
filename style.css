@@ -271,6 +271,7 @@ border: 1px solid black;
 padding: 3px 6px;
 color: black;
 float: right;
+font-size: 14px;
 }
 img.order{
 display: block;
